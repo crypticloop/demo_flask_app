@@ -9,9 +9,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def demo():
-    return "REN!"
+    return "REN is a pie!"
 
 
 if __name__ == "__main__":
-
     app.run(debug=True)
